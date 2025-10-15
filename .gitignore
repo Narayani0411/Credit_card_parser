@@ -1,0 +1,35 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.log
+
+# Virtual environment
+myenv/
+venv/
+ENV/
+env/
+
+# === Flask or general backend ===
+instance/
+temp_uploads/
+*.db
+*.sqlite3
+
+# === Node (React frontend) ===
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === General ===
+*.env
+.env.local
+.env.production
+*.pem
